@@ -1,0 +1,145 @@
+.customForm__form {
+  width: 500px;
+  background-color: #ede6dc;
+  margin: 30px auto auto auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.05);
+  -moz-box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.05);
+  box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.05);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  margin-bottom: 20px;
+}
+
+.textField__input {
+  margin-bottom: 20px !important;
+  color: #b0606d;
+  display: grid !important;
+}
+
+.customForm__form-control {
+  margin-top: 10px !important;
+}
+
+.customForm__form-label {
+  margin-bottom: 10px !important;
+  color: "#72706a";
+}
+
+.radioGroup {
+  color: #b0606d;
+}
+
+.content > p {
+  color: #72706a;
+}
+
+.itemColor {
+  color: white;
+}
+
+.formComponent__buttons-group > Button {
+  background-color: #b0606d;
+  color: white;
+  max-width: 200px;
+}
+
+.buttonEdit {
+  margin-left: 10;
+  background-color: #482543;
+}
+
+.MuiIconButton-colorSecondary {
+  color: var(--light-green) !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--light-green) !important;
+}
+
+.to-do-list__container {
+  padding-bottom: 50px;
+}
+
+.to-do-list__container > h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #72706a;
+  font-size: 50px;
+}
+
+.to-do-list__tasks-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.to-do-list__tasks-wrapper > .container {
+  margin: 40px;
+}
+
+.customForm__form > h1 {
+  text-align: center;
+  color: #72706a;
+}
+
+.container {
+  width: 245;
+  display: grid;
+  background-color: #ede6dc;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.container > h3 {
+  font-size: 30px;
+}
+
+.itemComponent__buttons-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.item--description {
+  color: var(--font-standard-color);
+}
+
+.customForm__form > span {
+  color: var(--light-green);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.item--type {
+  width: fit-content;
+  height: auto;
+  background-color: var(--light-gray);
+  border-radius: 5px;
+  color: #72706a;
+}
+
+.formComponent__buttons-group {
+  display: flex;
+  justify-content: space-around;
+  color: #121213;
+}
+
+.title__h3 {
+  text-decoration: line-through;
+  font-size: 25px;
+  color: #72706a;
+  text-transform: uppercase;
+}
+
+.title__h3_incomplete {
+  font-size: 25px;
+  color: #72706a;
+  text-transform: uppercase;
+}
